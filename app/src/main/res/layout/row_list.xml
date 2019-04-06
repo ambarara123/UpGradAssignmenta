@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_margin="1dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/tagLayout"
+>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DFD8D8"
+    >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tagsName"
+                android:layout_centerVertical="true"
+                android:textSize="25sp"
+                tools:text="Javascript"
+                android:textStyle="bold"
+                android:textColor="#363232"
+                android:layout_marginStart="25dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
